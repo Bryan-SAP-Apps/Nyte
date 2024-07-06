@@ -221,7 +221,7 @@ struct BottomSheetView: View {
                             .background(Color.red)
                             .foregroundColor(.white)
                             .cornerRadius(10)
-                            .position(x:324)
+                            .position(x:325)
 
                         }
                         .padding()
