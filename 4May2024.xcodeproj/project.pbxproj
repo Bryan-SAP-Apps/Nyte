@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042F98512BEA659000279693 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F98502BEA659000279693 /* Music.swift */; };
+		042F985B2BEF1FDD00279693 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F985A2BEF1FDD00279693 /* ItemView.swift */; };
+		042F985C2BEF1FDD00279693 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F985A2BEF1FDD00279693 /* ItemView.swift */; };
+		042F985D2BEF1FDD00279693 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F985A2BEF1FDD00279693 /* ItemView.swift */; };
+		04340A0C2BF10CA800668A07 /* SwayingHeartbeats.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04340A0B2BF10CA800668A07 /* SwayingHeartbeats.mp3 */; };
+		04340A0D2BF10CA800668A07 /* SwayingHeartbeats.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04340A0B2BF10CA800668A07 /* SwayingHeartbeats.mp3 */; };
+		04340A0E2BF10CA800668A07 /* SwayingHeartbeats.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04340A0B2BF10CA800668A07 /* SwayingHeartbeats.mp3 */; };
+		04340A102BF10CBE00668A07 /* BossNow!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04340A0F2BF10CBE00668A07 /* BossNow!.mp3 */; };
+		04340A112BF10CBE00668A07 /* BossNow!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04340A0F2BF10CBE00668A07 /* BossNow!.mp3 */; };
+		04340A122BF10CBE00668A07 /* BossNow!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04340A0F2BF10CBE00668A07 /* BossNow!.mp3 */; };
+		04340A142BF10CC700668A07 /* superchill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04340A132BF10CC700668A07 /* superchill.mp3 */; };
+		04340A152BF10CC700668A07 /* superchill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04340A132BF10CC700668A07 /* superchill.mp3 */; };
+		04340A162BF10CC700668A07 /* superchill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04340A132BF10CC700668A07 /* superchill.mp3 */; };
+		04340A182BF10D4600668A07 /* SwayingHeartbeats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04340A172BF10D4600668A07 /* SwayingHeartbeats.swift */; };
+		04340A192BF10D4600668A07 /* SwayingHeartbeats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04340A172BF10D4600668A07 /* SwayingHeartbeats.swift */; };
+		04340A1A2BF10D4600668A07 /* SwayingHeartbeats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04340A172BF10D4600668A07 /* SwayingHeartbeats.swift */; };
+		04340A1C2BF10E3300668A07 /* BossNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04340A1B2BF10E3300668A07 /* BossNow.swift */; };
+		04340A1D2BF10E3300668A07 /* BossNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04340A1B2BF10E3300668A07 /* BossNow.swift */; };
+		04340A1E2BF10E3300668A07 /* BossNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04340A1B2BF10E3300668A07 /* BossNow.swift */; };
+		04340A202BF25A4700668A07 /* AtmosphericNoiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04340A1F2BF25A4700668A07 /* AtmosphericNoiseView.swift */; };
+		04340A212BF25A4700668A07 /* AtmosphericNoiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04340A1F2BF25A4700668A07 /* AtmosphericNoiseView.swift */; };
+		04340A222BF25A4700668A07 /* AtmosphericNoiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04340A1F2BF25A4700668A07 /* AtmosphericNoiseView.swift */; };
+		0450E6092BF6393C003F6DC0 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6082BF6393C003F6DC0 /* MusicPlayer.swift */; };
+		0450E60B2BF78B77003F6DC0 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E60A2BF78B77003F6DC0 /* ProgressBarView.swift */; };
+		0450E6112BF8431D003F6DC0 /* night-at-campfire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60C2BF8431D003F6DC0 /* night-at-campfire.mp3 */; };
+		0450E6122BF8431D003F6DC0 /* night-at-campfire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60C2BF8431D003F6DC0 /* night-at-campfire.mp3 */; };
+		0450E6132BF8431D003F6DC0 /* night-at-campfire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60C2BF8431D003F6DC0 /* night-at-campfire.mp3 */; };
+		0450E6142BF8431D003F6DC0 /* dutchcountryside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60D2BF8431D003F6DC0 /* dutchcountryside.mp3 */; };
+		0450E6152BF8431D003F6DC0 /* dutchcountryside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60D2BF8431D003F6DC0 /* dutchcountryside.mp3 */; };
+		0450E6162BF8431D003F6DC0 /* dutchcountryside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60D2BF8431D003F6DC0 /* dutchcountryside.mp3 */; };
+		0450E6172BF8431D003F6DC0 /* brewingcoffee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60E2BF8431D003F6DC0 /* brewingcoffee.mp3 */; };
+		0450E6182BF8431D003F6DC0 /* brewingcoffee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60E2BF8431D003F6DC0 /* brewingcoffee.mp3 */; };
+		0450E6192BF8431D003F6DC0 /* brewingcoffee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60E2BF8431D003F6DC0 /* brewingcoffee.mp3 */; };
+		0450E61A2BF8431D003F6DC0 /* leaves-rustling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60F2BF8431D003F6DC0 /* leaves-rustling.mp3 */; };
+		0450E61B2BF8431D003F6DC0 /* leaves-rustling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60F2BF8431D003F6DC0 /* leaves-rustling.mp3 */; };
+		0450E61C2BF8431D003F6DC0 /* leaves-rustling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E60F2BF8431D003F6DC0 /* leaves-rustling.mp3 */; };
+		0450E61D2BF8431D003F6DC0 /* NocturnalReverie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E6102BF8431D003F6DC0 /* NocturnalReverie.mp3 */; };
+		0450E61E2BF8431D003F6DC0 /* NocturnalReverie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E6102BF8431D003F6DC0 /* NocturnalReverie.mp3 */; };
+		0450E61F2BF8431D003F6DC0 /* NocturnalReverie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0450E6102BF8431D003F6DC0 /* NocturnalReverie.mp3 */; };
+		0450E6212BF8437A003F6DC0 /* brewingcoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6202BF8437A003F6DC0 /* brewingcoffee.swift */; };
+		0450E6222BF8437A003F6DC0 /* brewingcoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6202BF8437A003F6DC0 /* brewingcoffee.swift */; };
+		0450E6232BF8437A003F6DC0 /* brewingcoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6202BF8437A003F6DC0 /* brewingcoffee.swift */; };
+		0450E6252BF843A0003F6DC0 /* dutchcountryside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6242BF843A0003F6DC0 /* dutchcountryside.swift */; };
+		0450E6262BF843A0003F6DC0 /* dutchcountryside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6242BF843A0003F6DC0 /* dutchcountryside.swift */; };
+		0450E6272BF843A0003F6DC0 /* dutchcountryside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6242BF843A0003F6DC0 /* dutchcountryside.swift */; };
+		0450E6292BF843C8003F6DC0 /* leaves-rustling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6282BF843C8003F6DC0 /* leaves-rustling.swift */; };
+		0450E62A2BF843C8003F6DC0 /* leaves-rustling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6282BF843C8003F6DC0 /* leaves-rustling.swift */; };
+		0450E62B2BF843C8003F6DC0 /* leaves-rustling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6282BF843C8003F6DC0 /* leaves-rustling.swift */; };
+		0450E62D2BF84406003F6DC0 /* night-at-campfire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E62C2BF84406003F6DC0 /* night-at-campfire.swift */; };
+		0450E62E2BF84406003F6DC0 /* night-at-campfire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E62C2BF84406003F6DC0 /* night-at-campfire.swift */; };
+		0450E62F2BF84406003F6DC0 /* night-at-campfire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E62C2BF84406003F6DC0 /* night-at-campfire.swift */; };
+		0450E6312BF8443D003F6DC0 /* NocturnalReverie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6302BF8443D003F6DC0 /* NocturnalReverie.swift */; };
+		0450E6322BF8443D003F6DC0 /* NocturnalReverie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6302BF8443D003F6DC0 /* NocturnalReverie.swift */; };
+		0450E6332BF8443D003F6DC0 /* NocturnalReverie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450E6302BF8443D003F6DC0 /* NocturnalReverie.swift */; };
+		0494B8052BE5C54500823594 /* _May2024App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8042BE5C54500823594 /* _May2024App.swift */; };
+		0494B8072BE5C54500823594 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8062BE5C54500823594 /* ContentView.swift */; };
+		0494B8092BE5C54500823594 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8082BE5C54500823594 /* Item.swift */; };
+		0494B80B2BE5C54600823594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0494B80A2BE5C54600823594 /* Assets.xcassets */; };
+		0494B80E2BE5C54600823594 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0494B80D2BE5C54600823594 /* Preview Assets.xcassets */; };
+		0494B8182BE5C54700823594 /* _May2024Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8172BE5C54700823594 /* _May2024Tests.swift */; };
+		0494B8222BE5C54700823594 /* _May2024UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8212BE5C54700823594 /* _May2024UITests.swift */; };
+		0494B8242BE5C54700823594 /* _May2024UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8232BE5C54700823594 /* _May2024UITestsLaunchTests.swift */; };
+		0494B8312BE5D0D500823594 /* Test1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8302BE5D0D500823594 /* Test1View.swift */; };
+		0494B8332BE5D0E600823594 /* Test2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8322BE5D0E600823594 /* Test2View.swift */; };
+		0494B8352BE5D34200823594 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8342BE5D34200823594 /* PlayerView.swift */; };
+		04A59EF02C002B410084AD8A /* MusicPlayerAtmosphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A59EEF2C002B410084AD8A /* MusicPlayerAtmosphere.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0494B8142BE5C54700823594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0494B7F92BE5C54500823594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0494B8002BE5C54500823594;
+			remoteInfo = 4May2024;
+		};
+		0494B81E2BE5C54700823594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0494B7F92BE5C54500823594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0494B8002BE5C54500823594;
+			remoteInfo = 4May2024;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042F98502BEA659000279693 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		042F985A2BEF1FDD00279693 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		04340A0B2BF10CA800668A07 /* SwayingHeartbeats.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SwayingHeartbeats.mp3; sourceTree = "<group>"; };
+		04340A0F2BF10CBE00668A07 /* BossNow!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "BossNow!.mp3"; sourceTree = "<group>"; };
+		04340A132BF10CC700668A07 /* superchill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = superchill.mp3; sourceTree = "<group>"; };
+		04340A172BF10D4600668A07 /* SwayingHeartbeats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwayingHeartbeats.swift; sourceTree = "<group>"; };
+		04340A1B2BF10E3300668A07 /* BossNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossNow.swift; sourceTree = "<group>"; };
+		04340A1F2BF25A4700668A07 /* AtmosphericNoiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphericNoiseView.swift; sourceTree = "<group>"; };
+		0450E6082BF6393C003F6DC0 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		0450E60A2BF78B77003F6DC0 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		0450E60C2BF8431D003F6DC0 /* night-at-campfire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "night-at-campfire.mp3"; sourceTree = "<group>"; };
+		0450E60D2BF8431D003F6DC0 /* dutchcountryside.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dutchcountryside.mp3; sourceTree = "<group>"; };
+		0450E60E2BF8431D003F6DC0 /* brewingcoffee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brewingcoffee.mp3; sourceTree = "<group>"; };
+		0450E60F2BF8431D003F6DC0 /* leaves-rustling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "leaves-rustling.mp3"; sourceTree = "<group>"; };
+		0450E6102BF8431D003F6DC0 /* NocturnalReverie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NocturnalReverie.mp3; sourceTree = "<group>"; };
+		0450E6202BF8437A003F6DC0 /* brewingcoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brewingcoffee.swift; sourceTree = "<group>"; };
+		0450E6242BF843A0003F6DC0 /* dutchcountryside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dutchcountryside.swift; sourceTree = "<group>"; };
+		0450E6282BF843C8003F6DC0 /* leaves-rustling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "leaves-rustling.swift"; sourceTree = "<group>"; };
+		0450E62C2BF84406003F6DC0 /* night-at-campfire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "night-at-campfire.swift"; sourceTree = "<group>"; };
+		0450E6302BF8443D003F6DC0 /* NocturnalReverie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NocturnalReverie.swift; sourceTree = "<group>"; };
+		046CA54E2BE7BF25000FB063 /* -May2024-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-May2024-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0494B8012BE5C54500823594 /* 4May2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4May2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0494B8042BE5C54500823594 /* _May2024App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _May2024App.swift; sourceTree = "<group>"; };
+		0494B8062BE5C54500823594 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0494B8082BE5C54500823594 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0494B80A2BE5C54600823594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0494B80D2BE5C54600823594 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0494B8132BE5C54700823594 /* 4May2024Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4May2024Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0494B8172BE5C54700823594 /* _May2024Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _May2024Tests.swift; sourceTree = "<group>"; };
+		0494B81D2BE5C54700823594 /* 4May2024UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4May2024UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0494B8212BE5C54700823594 /* _May2024UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _May2024UITests.swift; sourceTree = "<group>"; };
+		0494B8232BE5C54700823594 /* _May2024UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _May2024UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0494B8302BE5D0D500823594 /* Test1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1View.swift; sourceTree = "<group>"; };
+		0494B8322BE5D0E600823594 /* Test2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2View.swift; sourceTree = "<group>"; };
+		0494B8342BE5D34200823594 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		04A59EEF2C002B410084AD8A /* MusicPlayerAtmosphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerAtmosphere.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0494B7FE2BE5C54500823594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0494B8102BE5C54700823594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0494B81A2BE5C54700823594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0494B7F82BE5C54500823594 = {
+			isa = PBXGroup;
+			children = (
+				0494B8032BE5C54500823594 /* 4May2024 */,
+				0494B8162BE5C54700823594 /* 4May2024Tests */,
+				0494B8202BE5C54700823594 /* 4May2024UITests */,
+				0494B8022BE5C54500823594 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0494B8022BE5C54500823594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0494B8012BE5C54500823594 /* 4May2024.app */,
+				0494B8132BE5C54700823594 /* 4May2024Tests.xctest */,
+				0494B81D2BE5C54700823594 /* 4May2024UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0494B8032BE5C54500823594 /* 4May2024 */ = {
+			isa = PBXGroup;
+			children = (
+				046CA54E2BE7BF25000FB063 /* -May2024-Info.plist */,
+				0494B8042BE5C54500823594 /* _May2024App.swift */,
+				0494B8062BE5C54500823594 /* ContentView.swift */,
+				04340A1F2BF25A4700668A07 /* AtmosphericNoiseView.swift */,
+				0494B8342BE5D34200823594 /* PlayerView.swift */,
+				0450E60A2BF78B77003F6DC0 /* ProgressBarView.swift */,
+				042F985A2BEF1FDD00279693 /* ItemView.swift */,
+				04340A172BF10D4600668A07 /* SwayingHeartbeats.swift */,
+				0450E6202BF8437A003F6DC0 /* brewingcoffee.swift */,
+				0450E6242BF843A0003F6DC0 /* dutchcountryside.swift */,
+				0450E6082BF6393C003F6DC0 /* MusicPlayer.swift */,
+				04A59EEF2C002B410084AD8A /* MusicPlayerAtmosphere.swift */,
+				0450E6282BF843C8003F6DC0 /* leaves-rustling.swift */,
+				0450E62C2BF84406003F6DC0 /* night-at-campfire.swift */,
+				0450E6302BF8443D003F6DC0 /* NocturnalReverie.swift */,
+				04340A1B2BF10E3300668A07 /* BossNow.swift */,
+				042F98502BEA659000279693 /* Music.swift */,
+				0494B8302BE5D0D500823594 /* Test1View.swift */,
+				0494B8322BE5D0E600823594 /* Test2View.swift */,
+				0494B8082BE5C54500823594 /* Item.swift */,
+				0494B80A2BE5C54600823594 /* Assets.xcassets */,
+				0494B80C2BE5C54600823594 /* Preview Content */,
+			);
+			path = 4May2024;
+			sourceTree = "<group>";
+		};
+		0494B80C2BE5C54600823594 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0494B80D2BE5C54600823594 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0494B8162BE5C54700823594 /* 4May2024Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0450E60E2BF8431D003F6DC0 /* brewingcoffee.mp3 */,
+				0450E60D2BF8431D003F6DC0 /* dutchcountryside.mp3 */,
+				0450E60F2BF8431D003F6DC0 /* leaves-rustling.mp3 */,
+				0450E60C2BF8431D003F6DC0 /* night-at-campfire.mp3 */,
+				0450E6102BF8431D003F6DC0 /* NocturnalReverie.mp3 */,
+				0494B8172BE5C54700823594 /* _May2024Tests.swift */,
+			);
+			path = 4May2024Tests;
+			sourceTree = "<group>";
+		};
+		0494B8202BE5C54700823594 /* 4May2024UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04340A132BF10CC700668A07 /* superchill.mp3 */,
+				04340A0F2BF10CBE00668A07 /* BossNow!.mp3 */,
+				04340A0B2BF10CA800668A07 /* SwayingHeartbeats.mp3 */,
+				0494B8212BE5C54700823594 /* _May2024UITests.swift */,
+				0494B8232BE5C54700823594 /* _May2024UITestsLaunchTests.swift */,
+			);
+			path = 4May2024UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0494B8002BE5C54500823594 /* 4May2024 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0494B8272BE5C54700823594 /* Build configuration list for PBXNativeTarget "4May2024" */;
+			buildPhases = (
+				0494B7FD2BE5C54500823594 /* Sources */,
+				0494B7FE2BE5C54500823594 /* Frameworks */,
+				0494B7FF2BE5C54500823594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 4May2024;
+			productName = 4May2024;
+			productReference = 0494B8012BE5C54500823594 /* 4May2024.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0494B8122BE5C54700823594 /* 4May2024Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0494B82A2BE5C54700823594 /* Build configuration list for PBXNativeTarget "4May2024Tests" */;
+			buildPhases = (
+				0494B80F2BE5C54700823594 /* Sources */,
+				0494B8102BE5C54700823594 /* Frameworks */,
+				0494B8112BE5C54700823594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0494B8152BE5C54700823594 /* PBXTargetDependency */,
+			);
+			name = 4May2024Tests;
+			productName = 4May2024Tests;
+			productReference = 0494B8132BE5C54700823594 /* 4May2024Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0494B81C2BE5C54700823594 /* 4May2024UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0494B82D2BE5C54700823594 /* Build configuration list for PBXNativeTarget "4May2024UITests" */;
+			buildPhases = (
+				0494B8192BE5C54700823594 /* Sources */,
+				0494B81A2BE5C54700823594 /* Frameworks */,
+				0494B81B2BE5C54700823594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0494B81F2BE5C54700823594 /* PBXTargetDependency */,
+			);
+			name = 4May2024UITests;
+			productName = 4May2024UITests;
+			productReference = 0494B81D2BE5C54700823594 /* 4May2024UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0494B7F92BE5C54500823594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					0494B8002BE5C54500823594 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					0494B8122BE5C54700823594 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0494B8002BE5C54500823594;
+					};
+					0494B81C2BE5C54700823594 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0494B8002BE5C54500823594;
+					};
+				};
+			};
+			buildConfigurationList = 0494B7FC2BE5C54500823594 /* Build configuration list for PBXProject "4May2024" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0494B7F82BE5C54500823594;
+			productRefGroup = 0494B8022BE5C54500823594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0494B8002BE5C54500823594 /* 4May2024 */,
+				0494B8122BE5C54700823594 /* 4May2024Tests */,
+				0494B81C2BE5C54700823594 /* 4May2024UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0494B7FF2BE5C54500823594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0450E6142BF8431D003F6DC0 /* dutchcountryside.mp3 in Resources */,
+				04340A0C2BF10CA800668A07 /* SwayingHeartbeats.mp3 in Resources */,
+				0450E61D2BF8431D003F6DC0 /* NocturnalReverie.mp3 in Resources */,
+				0450E6112BF8431D003F6DC0 /* night-at-campfire.mp3 in Resources */,
+				0494B80E2BE5C54600823594 /* Preview Assets.xcassets in Resources */,
+				04340A102BF10CBE00668A07 /* BossNow!.mp3 in Resources */,
+				0450E6172BF8431D003F6DC0 /* brewingcoffee.mp3 in Resources */,
+				04340A142BF10CC700668A07 /* superchill.mp3 in Resources */,
+				0494B80B2BE5C54600823594 /* Assets.xcassets in Resources */,
+				0450E61A2BF8431D003F6DC0 /* leaves-rustling.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0494B8112BE5C54700823594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04340A112BF10CBE00668A07 /* BossNow!.mp3 in Resources */,
+				04340A0D2BF10CA800668A07 /* SwayingHeartbeats.mp3 in Resources */,
+				0450E61E2BF8431D003F6DC0 /* NocturnalReverie.mp3 in Resources */,
+				04340A152BF10CC700668A07 /* superchill.mp3 in Resources */,
+				0450E61B2BF8431D003F6DC0 /* leaves-rustling.mp3 in Resources */,
+				0450E6182BF8431D003F6DC0 /* brewingcoffee.mp3 in Resources */,
+				0450E6152BF8431D003F6DC0 /* dutchcountryside.mp3 in Resources */,
+				0450E6122BF8431D003F6DC0 /* night-at-campfire.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0494B81B2BE5C54700823594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04340A122BF10CBE00668A07 /* BossNow!.mp3 in Resources */,
+				04340A0E2BF10CA800668A07 /* SwayingHeartbeats.mp3 in Resources */,
+				0450E61F2BF8431D003F6DC0 /* NocturnalReverie.mp3 in Resources */,
+				04340A162BF10CC700668A07 /* superchill.mp3 in Resources */,
+				0450E61C2BF8431D003F6DC0 /* leaves-rustling.mp3 in Resources */,
+				0450E6192BF8431D003F6DC0 /* brewingcoffee.mp3 in Resources */,
+				0450E6162BF8431D003F6DC0 /* dutchcountryside.mp3 in Resources */,
+				0450E6132BF8431D003F6DC0 /* night-at-campfire.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0494B7FD2BE5C54500823594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0494B8072BE5C54500823594 /* ContentView.swift in Sources */,
+				0494B8092BE5C54500823594 /* Item.swift in Sources */,
+				0450E6092BF6393C003F6DC0 /* MusicPlayer.swift in Sources */,
+				04A59EF02C002B410084AD8A /* MusicPlayerAtmosphere.swift in Sources */,
+				0494B8312BE5D0D500823594 /* Test1View.swift in Sources */,
+				0450E6252BF843A0003F6DC0 /* dutchcountryside.swift in Sources */,
+				0450E62D2BF84406003F6DC0 /* night-at-campfire.swift in Sources */,
+				0450E6292BF843C8003F6DC0 /* leaves-rustling.swift in Sources */,
+				0450E6212BF8437A003F6DC0 /* brewingcoffee.swift in Sources */,
+				042F985B2BEF1FDD00279693 /* ItemView.swift in Sources */,
+				0494B8352BE5D34200823594 /* PlayerView.swift in Sources */,
+				04340A1C2BF10E3300668A07 /* BossNow.swift in Sources */,
+				042F98512BEA659000279693 /* Music.swift in Sources */,
+				04340A202BF25A4700668A07 /* AtmosphericNoiseView.swift in Sources */,
+				0450E6312BF8443D003F6DC0 /* NocturnalReverie.swift in Sources */,
+				04340A182BF10D4600668A07 /* SwayingHeartbeats.swift in Sources */,
+				0494B8332BE5D0E600823594 /* Test2View.swift in Sources */,
+				0450E60B2BF78B77003F6DC0 /* ProgressBarView.swift in Sources */,
+				0494B8052BE5C54500823594 /* _May2024App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0494B80F2BE5C54700823594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0450E6222BF8437A003F6DC0 /* brewingcoffee.swift in Sources */,
+				04340A212BF25A4700668A07 /* AtmosphericNoiseView.swift in Sources */,
+				04340A192BF10D4600668A07 /* SwayingHeartbeats.swift in Sources */,
+				0450E6322BF8443D003F6DC0 /* NocturnalReverie.swift in Sources */,
+				0494B8182BE5C54700823594 /* _May2024Tests.swift in Sources */,
+				0450E6262BF843A0003F6DC0 /* dutchcountryside.swift in Sources */,
+				0450E62E2BF84406003F6DC0 /* night-at-campfire.swift in Sources */,
+				0450E62A2BF843C8003F6DC0 /* leaves-rustling.swift in Sources */,
+				042F985C2BEF1FDD00279693 /* ItemView.swift in Sources */,
+				04340A1D2BF10E3300668A07 /* BossNow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0494B8192BE5C54700823594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04340A1E2BF10E3300668A07 /* BossNow.swift in Sources */,
+				0494B8242BE5C54700823594 /* _May2024UITestsLaunchTests.swift in Sources */,
+				0450E62B2BF843C8003F6DC0 /* leaves-rustling.swift in Sources */,
+				0450E6272BF843A0003F6DC0 /* dutchcountryside.swift in Sources */,
+				042F985D2BEF1FDD00279693 /* ItemView.swift in Sources */,
+				0494B8222BE5C54700823594 /* _May2024UITests.swift in Sources */,
+				0450E62F2BF84406003F6DC0 /* night-at-campfire.swift in Sources */,
+				0450E6332BF8443D003F6DC0 /* NocturnalReverie.swift in Sources */,
+				0450E6232BF8437A003F6DC0 /* brewingcoffee.swift in Sources */,
+				04340A1A2BF10D4600668A07 /* SwayingHeartbeats.swift in Sources */,
+				04340A222BF25A4700668A07 /* AtmosphericNoiseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0494B8152BE5C54700823594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0494B8002BE5C54500823594 /* 4May2024 */;
+			targetProxy = 0494B8142BE5C54700823594 /* PBXContainerItemProxy */;
+		};
+		0494B81F2BE5C54700823594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0494B8002BE5C54500823594 /* 4May2024 */;
+			targetProxy = 0494B81E2BE5C54700823594 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0494B8252BE5C54700823594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0494B8262BE5C54700823594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0494B8282BE5C54700823594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"4May2024/Preview Content\"";
+				DEVELOPMENT_TEAM = 7H539QRB34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-May2024-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BryanNguyen.-May2024";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0494B8292BE5C54700823594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"4May2024/Preview Content\"";
+				DEVELOPMENT_TEAM = 7H539QRB34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-May2024-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BryanNguyen.-May2024";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0494B82B2BE5C54700823594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BryanNguyen.-May2024Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4May2024.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/4May2024";
+			};
+			name = Debug;
+		};
+		0494B82C2BE5C54700823594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BryanNguyen.-May2024Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4May2024.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/4May2024";
+			};
+			name = Release;
+		};
+		0494B82E2BE5C54700823594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H539QRB34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BryanNguyen.-May2024UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 4May2024;
+			};
+			name = Debug;
+		};
+		0494B82F2BE5C54700823594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H539QRB34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BryanNguyen.-May2024UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 4May2024;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0494B7FC2BE5C54500823594 /* Build configuration list for PBXProject "4May2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0494B8252BE5C54700823594 /* Debug */,
+				0494B8262BE5C54700823594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0494B8272BE5C54700823594 /* Build configuration list for PBXNativeTarget "4May2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0494B8282BE5C54700823594 /* Debug */,
+				0494B8292BE5C54700823594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0494B82A2BE5C54700823594 /* Build configuration list for PBXNativeTarget "4May2024Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0494B82B2BE5C54700823594 /* Debug */,
+				0494B82C2BE5C54700823594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0494B82D2BE5C54700823594 /* Build configuration list for PBXNativeTarget "4May2024UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0494B82E2BE5C54700823594 /* Debug */,
+				0494B82F2BE5C54700823594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0494B7F92BE5C54500823594 /* Project object */;
+}
